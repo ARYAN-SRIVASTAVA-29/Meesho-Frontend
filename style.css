@@ -1,0 +1,916 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bigNav{height: 0vh;
+background: white;
+position: relative;
+z-index:5 ;
+}
+
+
+#navbar {
+ 
+  /* width: 92.5%;
+  margin: auto;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  */
+
+
+  height: 7.5%;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+ border-bottom: 1px solid rgb(223, 223, 223);
+  position: fixed;
+  z-index: 7;
+  background: white;
+  top: 0;
+  padding-top: 5px;
+  padding-left: 40px;
+
+}
+
+#navbarA{
+  background: white;
+}
+
+.logo {
+  /* margin-left: 80px; */
+  margin-top: 9px;
+
+}
+
+.bar {
+  width: 310px;
+  padding-left: 35px;
+  /* margin-top: 15px; */
+  height: 37px;
+  margin-left: 14px;
+  font-size: 15px;
+  caret-color: rgb(244, 51, 151);
+  border: 1px solid rgb(223, 223, 223);
+
+
+}
+
+.bar:focus {
+  outline: none;
+}
+
+.fa-magnifying-glass {
+  translate: 41px;
+  cursor: pointer;
+  color: rgb(223, 223, 223);
+
+
+}
+
+.fa-download {
+  padding-right: 10px;
+  margin-top: 2px;
+}
+
+.download {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  margin-left: 280px;
+}
+
+.download:hover {
+  color: rgb(244, 51, 151);
+}
+
+.dividerA {
+  height: 30px;
+  width: 2px;
+  background-color: rgb(223, 223, 223);
+  margin-left: 25px;
+}
+
+.seller {
+  margin-left: 25px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.seller a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+
+.profile {
+  font-size: 16px;
+  width: 40px;
+  /* display: flex; */
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+.profile:hover {
+  color: rgb(244, 51, 151);
+}
+
+.fa-user {
+  position: relative;
+  left: 50%;
+  font-size: small;
+  /* display: block; */
+}
+
+
+
+.cart {
+  font-size: 16px;
+  width: 40px;
+  /* padding: auto; */
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+/* .cart p{margin: auto;} */
+
+
+
+.fa-cart-shopping {
+  position: relative;
+  left: 28%;
+  font-size: small;
+}
+
+
+
+
+
+.one{
+  /* height: 3vh;
+  display: flex;
+  margin-left: 80px;
+  width: 92.5%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 2vh;
+ color: rgb(51, 51, 51);
+ font-size: 18px;
+ font-family: 'Open Sans', sans-serif; 
+ position: sticky; */
+
+
+ height: 4.5%;
+ display: flex;
+ 
+ width: 90%;
+ /* margin: auto; */
+
+ justify-content: space-between;
+ /* margin-top: 10vh; */
+
+ color: rgb(51, 51, 51);
+ 
+ font-size: 18px;
+ font-family: 'Open Sans', sans-serif;
+ position: fixed;
+ z-index: 4;
+ background: white;
+ margin-top: -0.55%;
+ padding-left: 50px;
+ padding-top: 7px;
+ border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.one p{height: 3.75vh;
+  cursor: pointer;
+}
+
+.one p:hover{
+  color: rgb(244, 51, 151);
+  /* box-sizing: border-box; */
+  border-bottom: 3px solid rgb(244, 51, 151);
+  /* line-height: 25px; */
+  /* border-spacing: 15px; */
+}
+
+
+.ethnic{
+  width: 92.5vw;
+  margin: auto;
+  height: 38vh;
+  border: 1px solid rgb(223, 223, 223);
+  /* display: flex; */
+  display: none;
+  
+  transition: width 3s ease-in 2s ;                      ;
+  /* box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); */
+  letter-spacing: 1px;
+  font-size: 19px;
+  position: absolute;
+  z-index: 4;
+  background-color: white;
+  top: 13.05%;
+  position: fixed;
+  margin-left: 40px;
+}
+
+.all{padding-left: 15px;
+padding-top: 8px;
+color: rgb(244, 51, 151);}
+
+.all a{position: absolute;
+  top: 20%;
+text-decoration: none;
+color: rgb(102, 102, 102);
+}
+
+
+
+.sarees{
+  margin-left: 1%;
+  padding-top: 8px;
+  color: rgb(244, 51, 151);
+  background-color: rgb(249, 249, 249);
+  width: 11vw;
+  padding-left: 2%;
+}
+
+.sarees ul{position: absolute;
+top: 20%;
+list-style: none;
+}
+
+.sarees ul li{padding-bottom: 12px;}
+
+.sarees ul li a{
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+
+
+
+
+.kurtis{
+  margin-left: 1%;
+  padding-top: 8px;
+  color: rgb(244, 51, 151);
+  /* background-color: rgb(249, 249, 249); */
+  width: 11vw;
+  /* padding-left: 1%; */
+}
+
+.kurtis ul{position: absolute;
+top: 20%;
+list-style: none;
+}
+
+.kurtis ul li{padding-bottom: 12px;}
+
+.kurtis ul li a{
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+.kurtaSets{padding-left: 15px;
+  padding-top: 8px;
+  color: rgb(244, 51, 151);
+background-color: rgb(249, 249, 249);
+width: 9%;}
+  
+  .kurtaSets a{position: absolute;
+    top: 20%;
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  }
+
+
+
+
+  .suit{
+    /* margin-left: 1%; */
+    padding-top: 8px;
+    color: rgb(244, 51, 151);
+    /* background-color: rgb(249, 249, 249); */
+    width: 16%;
+    padding-left: 1%;
+  }
+  
+  .suit ul{position: absolute;
+  top: 20%;
+  list-style: none;
+  }
+  
+  .suit ul li{padding-bottom: 12px;}
+  
+  .suit ul li a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+  }
+  
+
+
+
+  .other{
+    margin-left: 1%;
+    padding-top: 8px;
+    color: rgb(244, 51, 151);
+    background-color: rgb(249, 249, 249);
+    width: 12%;
+    padding-left: 2%;
+  }
+  
+  .other ul{position: absolute;
+  top: 20%;
+  list-style: none;
+  }
+  
+  .other ul li{padding-bottom: 12px;}
+  
+  .other ul li a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+  }
+
+
+
+  .ethnic a:hover{
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    /* font-family:'Open Sans', sans-serif;  */
+    /* font-size: 20px; */
+  }
+  
+
+
+
+  .western{
+    width: 92.5vw;
+    margin: auto;
+    height: 25vh;
+    border: 1px solid rgb(223, 223, 223);
+    display: none;
+    /* display: none; */
+    letter-spacing: 1px;
+    font-size: 19px;
+    position: absolute;
+    z-index: 4;
+    background-color: white;
+    top: 13.05%;
+    position: fixed;
+    margin-left: 40px;
+  }
+
+  
+
+
+
+    .topwear{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      /* background-color: rgb(249, 249, 249); */
+      width: 7vw;
+      padding-left: 1%;
+    }
+    
+    .topwear ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .topwear ul li{padding-bottom: 12px;
+    }
+    
+    .topwear ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+    
+    
+
+
+ 
+    .bottomwear{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      background-color: rgb(249, 249, 249);
+      width: 8.5vw;
+      padding-left: 1%;
+    }
+    
+    .bottomwear ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .bottomwear ul li{padding-bottom: 12px;}
+    
+    .bottomwear ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+    
+    
+
+
+
+
+    .innerwear{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      /* background-color: rgb(249, 249, 249); */
+      width: 7vw;
+      padding-left: 1%;
+    }
+    
+    .innerwear ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .innerwear ul li{padding-bottom: 12px;}
+    
+    .innerwear ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+    
+    
+
+
+
+
+    .sleepwear{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      background-color: rgb(249, 249, 249);
+      width: 7.5vw;
+      padding-left: 1%;
+    }
+    
+    .sleepwear ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .sleepwear ul li{padding-bottom: 12px;}
+    
+    .sleepwear ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+    
+    
+
+    .western a:hover{
+      color: rgb(51, 51, 51);
+      font-weight: bold;
+      /* font-family:'Open Sans', sans-serif;  */
+      /* font-size: 20px; */
+    }
+    
+
+
+
+
+
+
+/* Men Section */
+
+
+
+
+    .menAB{
+        width: 92.5vw;
+        margin: auto;
+        height: 34vh;
+        border: 1px solid rgb(223, 223, 223);
+        /* display: flex; */
+        display: none;
+        /* box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); */
+        letter-spacing: 1px;
+        font-size: 19px;
+        position: absolute;
+        z-index: 4;
+        background-color: white;
+        top: 13.05%;
+        position: fixed;
+        margin-left: 40px;
+    
+    }
+
+    .topwearMen{
+      /* margin-left: 1%; */
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      /* background-color: rgb(249, 249, 249); */
+      width: 7.5vw;
+      padding-left: 1%;
+    }
+    
+    .topwearMen ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .topwearMen ul li{padding-bottom: 12px;}
+    
+    .topwearMen ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+    
+
+
+
+    .bottomwearMen{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      background-color: rgb(249, 249, 249);
+      width: 9.5vw;
+      padding-left: 1%;
+    }
+    
+    .bottomwearMen ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .bottomwearMen ul li{padding-bottom: 12px;}
+    
+    .bottomwearMen ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+    
+
+
+
+    .menAcessories{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      /* background-color: rgb(249, 249, 249); */
+      width: 10.5vw;
+      padding-left: 1%;
+    }
+    
+    .menAcessories ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .menAcessories ul li{padding-bottom: 12px;}
+    
+    .menAcessories ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+    
+
+
+
+    
+    .menFootwear{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      background-color: rgb(249, 249, 249);
+      width: 10vw;
+      padding-left: 1%;
+    }
+    
+    .menFootwear ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .menFootwear ul li{padding-bottom: 12px;}
+    
+    .menFootwear ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+
+
+    .ethnicWearMen{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      /* background-color: rgb(249, 249, 249); */
+      width: 9vw;
+      padding-left: 1%;
+    }
+    
+    .ethnicWearMen ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .ethnicWearMen ul li{padding-bottom: 12px;}
+    
+    .ethnicWearMen ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+
+
+
+    .innerWearMen{
+      margin-left: 1%;
+      padding-top: 8px;
+      color: rgb(244, 51, 151);
+      background-color: rgb(249, 249, 249);
+      width: 14vw;
+      padding-left: 1%;
+    }
+    
+    .innerWearMen ul{position: absolute;
+    top: 20%;
+    list-style: none;
+    }
+    
+    .innerWearMen ul li{padding-bottom: 12px;}
+    
+    .innerWearMen ul li a{
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+    }
+
+
+    .menAB a:hover{
+      color: rgb(51, 51, 51);
+      font-weight: bold;
+      /* font-family:'Open Sans', sans-serif;  */
+      /* font-size: 20px; */
+    }
+
+
+    .kidsAB{
+      width: 92.5vw;
+      margin: auto;
+      height: 25vh;
+      border: 1px solid rgb(223, 223, 223);
+      /* display: flex; */
+      display: none;
+      /* box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); */
+      letter-spacing: 1px;
+      font-size: 19px;
+    position: absolute;
+  z-index: 4;
+background-color: white;
+top: 13.05%;
+position: fixed;
+margin-left: 40px;}
+
+
+
+      .boys{padding-left: 15px;
+        padding-top: 8px;
+        color: rgb(244, 51, 151);}
+        
+        .boys a{position: absolute;
+          top: 20%;
+        text-decoration: none;
+        color: rgb(102, 102, 102);
+        }
+
+
+        .infant{margin-left: 1%;
+          padding-left: 15px;
+          padding-top: 8px;
+          color: rgb(244, 51, 151);
+          background-color: rgb(249, 249, 249);
+        width: 13%;}
+          
+          .infant a{position: absolute;
+            top: 20%;
+          text-decoration: none;
+          color: rgb(102, 102, 102);
+          }
+
+
+          .toys{
+            margin-left: 1%;
+            padding-top: 8px;
+            color: rgb(244, 51, 151);
+            /* background-color: rgb(249, 249, 249); */
+            width: 14vw;
+            padding-left: 1%;
+          }
+          
+          .toys ul{position: absolute;
+          top: 20%;
+          list-style: none;
+          }
+          
+          .toys ul li{padding-bottom: 12px;}
+          
+          .toys ul li a{
+            text-decoration: none;
+            color: rgb(102, 102, 102);
+          }
+
+          .baby{margin-left: 1%;
+            padding-left: 15px;
+            padding-top: 8px;
+            color: rgb(244, 51, 151);
+            background-color: rgb(249, 249, 249);
+          width: 10%;}
+            
+            .baby a{position: absolute;
+              top: 20%;
+            text-decoration: none;
+            color: rgb(102, 102, 102);
+            }
+  
+
+          .kidsAB a:hover{
+            color: rgb(51, 51, 51);
+            font-weight: bold;
+            /* font-family:'Open Sans', sans-serif;  */
+            /* font-size: 20px; */
+          }
+      
+
+
+
+
+          .homeKitchen{
+            position: absolute;
+      width: 92.5vw;
+      margin: auto;
+      height: 25vh;
+      border: 1px solid rgb(223, 223, 223);
+      /* display: flex; */
+      display: none;
+      /* box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); */
+      letter-spacing: 1px;
+      font-size: 19px;
+      background-color: white;
+    z-index: 4;
+    top: 13.05%;
+  position: fixed;
+  margin-left: 40px;}
+
+
+      .furnishing{
+        /* margin-left: 1%; */
+        padding-top: 8px;
+        color: rgb(244, 51, 151);
+        /* background-color: rgb(249, 249, 249); */
+        width: 15vw;
+        padding-left: 1%;
+      }
+      
+      .furnishing ul{position: absolute;
+      top: 20%;
+      list-style: none;
+      }
+      
+      .furnishing ul li{padding-bottom: 12px;}
+      
+      .furnishing ul li a{
+        text-decoration: none;
+        color: rgb(102, 102, 102);
+      }
+
+      .decor{
+        margin-left: 1%;
+        padding-top: 8px;
+        color: rgb(244, 51, 151);
+        background-color: rgb(249, 249, 249);
+        width: 12vw;
+        padding-left: 1%;
+      }
+      
+      .decor ul{position: absolute;
+      top: 20%;
+      list-style: none;
+      }
+      
+      .decor ul li{padding-bottom: 12px;}
+      
+      .decor ul li a{
+        text-decoration: none;
+        color: rgb(102, 102, 102);
+      }
+
+
+
+      .dining{
+        margin-left: 1%;
+        padding-top: 8px;
+        color: rgb(244, 51, 151);
+        /* background-color: rgb(249, 249, 249); */
+        width: 14vw;
+        padding-left: 1%;
+      }
+      
+      .dining ul{position: absolute;
+      top: 20%;
+      list-style: none;
+      }
+      
+      .dining ul li{padding-bottom: 12px;}
+      
+      .dining ul li a{
+        text-decoration: none;
+        color: rgb(102, 102, 102);
+      }
+
+      .homeKitchen a:hover{
+        color: rgb(51, 51, 51);
+        font-weight: bold;
+        /* font-family:'Open Sans', sans-serif;  */
+        /* font-size: 20px; */
+      }
+
+
+
+      .banner1{display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        position: relative;
+        z-index: 1;
+        /* width: 50%; */
+      }
+
+      /* .banner1 img{
+        position: fixed;
+      } */
+
+
+
+
+
+      .banner2{display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        position: relative;
+        z-index: 1;
+        /* width: 50%; */
+      }
+
+      /* .banner2 img{
+        position: fixed;
+      } */
+
+
+      
+      .banner3{display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        position: relative;
+        z-index: 1;
+        /* width: 50%; */
+      }
+      
+      
+      .banner4{display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        position: relative;
+        z-index: 1;
+        /* width: 50%; */
+      }
+
+
+      
+      .banner5{display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        position: relative;
+        z-index: 1;
+        /* width: 50%; */
+      }
+
+
+      .hori{
+        height: 1px;
+        width: 205px;
+        background-color: rgb(244, 51, 151);
+      }
+
+      .text{display: flex;
+      justify-content: center;
+    align-items: center;
+  font-size: 48px;
+  font-family: 'Noto Sans', sans-serif;
+margin-top: 5%;}
+
+
+
+
