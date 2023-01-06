@@ -22,8 +22,6 @@ function myFunction(){
     let element = document.querySelector(".ethnic")
 
     element.style.display = "flex";
-    // element.style.opacity = "50";
-    // element.style.transition = "all 1s ease-out";
     
     
 }
